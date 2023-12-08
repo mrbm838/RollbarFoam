@@ -1,0 +1,16 @@
+D:\cowain\cowain\bin\Release\cowain.exe.config
+D:\cowain\cowain\bin\Release\cowain.exe
+D:\cowain\cowain\bin\Release\cowain.pdb
+D:\cowain\cowain\bin\Release\HslCommunication.dll
+D:\cowain\cowain\bin\Release\Newtonsoft.Json.dll
+D:\cowain\cowain\bin\Release\ToolTotal.dll
+D:\cowain\cowain\obj\Release\cowain.csproj.cowain.exe.config
+D:\cowain\cowain\obj\Release\cowain.FormView.Designer.resources
+D:\cowain\cowain\obj\Release\cowain.FormView.FormHome.resources
+D:\cowain\cowain\obj\Release\cowain.FormView.FormLogin.resources
+D:\cowain\cowain\obj\Release\cowain.FormView.FormShow.resources
+D:\cowain\cowain\obj\Release\cowain.FormView.FormSet.resources
+D:\cowain\cowain\obj\Release\cowain.Properties.Resources.resources
+D:\cowain\cowain\obj\Release\cowain.csproj.GenerateResource.Cache
+D:\cowain\cowain\obj\Release\cowain.exe
+D:\cowain\cowain\obj\Release\cowain.pdb

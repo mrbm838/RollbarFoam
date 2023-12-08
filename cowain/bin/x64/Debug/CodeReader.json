@@ -1,0 +1,1 @@
+{"type":"视界","QRCode":"产品码","communication":"网口","portName":"COM1","baudRate":9600,"dataBits":8,"stopBits":1,"parity":0,"IP":"192.168.1.100","Port":9102,"triggerCommand":"T","releaseCommand":"R","enable":true}

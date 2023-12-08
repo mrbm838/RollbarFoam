@@ -1,0 +1,14 @@
+D:\cowain\cowain\bin\Debug\cowain.exe.config
+D:\cowain\cowain\bin\Debug\cowain.exe
+D:\cowain\cowain\bin\Debug\cowain.pdb
+D:\cowain\cowain\obj\Debug\cowain.csprojResolveAssemblyReference.cache
+D:\cowain\cowain\obj\Debug\cowain.csproj.cowain.exe.config
+D:\cowain\cowain\obj\Debug\cowain.FormView.Designer.resources
+D:\cowain\cowain\obj\Debug\cowain.FormView.FormHome.resources
+D:\cowain\cowain\obj\Debug\cowain.FormView.FormLogin.resources
+D:\cowain\cowain\obj\Debug\cowain.FormView.FormShow.resources
+D:\cowain\cowain\obj\Debug\cowain.FormView.FormSet.resources
+D:\cowain\cowain\obj\Debug\cowain.Properties.Resources.resources
+D:\cowain\cowain\obj\Debug\cowain.csproj.GenerateResource.Cache
+D:\cowain\cowain\obj\Debug\cowain.exe
+D:\cowain\cowain\obj\Debug\cowain.pdb

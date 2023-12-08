@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:tns="http://service.webServiceServer.abgWebServer.luxshare.com/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" name="ABGService" targetNamespace="http://service.webServiceServer.abgWebServer.luxshare.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://service.webServiceServer.abgWebServer.luxshare.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="SendDataToMES" type="tns:SendDataToMES" />
+      <xs:element name="SendDataToMESResponse" type="tns:SendDataToMESResponse" />
+      <xs:complexType name="SendDataToMES">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="strjson" type="xs:string" />
+          <xs:element minOccurs="0" name="strbytes" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SendDataToMESResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="SendDataToMESResponse">
+    <wsdl:part name="parameters" element="tns:SendDataToMESResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendDataToMES">
+    <wsdl:part name="parameters" element="tns:SendDataToMES" />
+  </wsdl:message>
+  <wsdl:portType name="ABGService">
+    <wsdl:operation name="SendDataToMES">
+      <wsdl:input name="SendDataToMES" message="tns:SendDataToMES" />
+      <wsdl:output name="SendDataToMESResponse" message="tns:SendDataToMESResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ABGServiceSoapBinding" type="tns:ABGService">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendDataToMES">
+      <soap12:operation soapAction="" style="document" />
+      <wsdl:input name="SendDataToMES">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SendDataToMESResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ABGService">
+    <wsdl:port name="ABGServiceImplPort" binding="tns:ABGServiceSoapBinding">
+      <soap12:address location="http://10.103.6.30/UploadFileData/abgService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
